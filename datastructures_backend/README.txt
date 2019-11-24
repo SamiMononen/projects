@@ -4,6 +4,11 @@ The program saves objects called "xpoints/fibres" and "beacons" using c++ standa
 
 The project is for a course called "datastructures and algorithms".
 
+The documentation PNG is screenshotted from the project instructions and is in finnish. 
+Source: http://www.cs.tut.fi/~tiraka/fi/prg1-beacons-of-rgb-fi.pdf
+	http://www.cs.tut.fi/~tiraka/fi/prg2-game-of-fibres-fi.pdf
+
 IMPORTANT 
 The application can't be run with just these files, I only included these files because everything else was provided by the course staff.
+
 
