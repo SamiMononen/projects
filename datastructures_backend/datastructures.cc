@@ -342,7 +342,7 @@ bool Datastructures::add_fibre(Coord xpoint1, Coord xpoint2, Cost cost)
 
     std::unordered_map<std::shared_ptr<Xpoint>, std::shared_ptr<Fibre>> fibres;
 
-    // Checking if the xpoints exist to avoid dublicates
+    // Checking if the xpoints exist to avoid duplicates
     if(xpoints_.find(xpoint1) == xpoints_.end()){
         auto xPoint1 = std::make_shared<Xpoint>(Xpoint{xpoint1, "white", -1, nullptr, fibres});
         xpoints_.insert({xpoint1, xPoint1});
